@@ -29,12 +29,13 @@ npm install
 Frontend
 cd client
 npm install
-
+ 
+para correr el servidor: 
 nodemon app.js
 # o
 node app.js
 
-Iniciar el Cliente
+para iniciar el Cliente
 npm run dev
 
 Notas Adicionales
