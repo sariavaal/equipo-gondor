@@ -21,7 +21,7 @@ En la carpeta `server`, renombra el archivo `.env.example` a `.env` y descomenta
 ### 2. Instalar Dependencias
 Ejecuta los siguientes comandos para instalar las dependencias tanto en el backend como en el frontend:
 
-#### Backend
+#### comandos
 ```bash
 cd server
 npm install
