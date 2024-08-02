@@ -48,7 +48,7 @@ module.exports = {
                             });
                         res.json({ 
                             message: 'User logged in successfully',
-                            user: userInfo // Añade los datos del usuario aquí
+                            user: userInfo 
                         });
                     })
                     .catch(err => {
