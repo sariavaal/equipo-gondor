@@ -23,7 +23,7 @@ const UserForm = ({formType}) => {
         await axios.post("http://localhost:8000/api/user/register", values, {
           withCredentials: true,
         });
-        navigate('/login');
+        navigate('/');
         
       } catch (error) {
         setErrors(error.response.data);
