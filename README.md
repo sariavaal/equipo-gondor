@@ -15,8 +15,6 @@ Este proyecto consiste en una aplicación web con un backend desarrollado en Nod
 
 ###  Instalar MongoDB en Ubuntu
 
-Para instalar MongoDB en Ubuntu, puedes utilizar el siguiente comando:
-
 ```bash
 sudo apt update
 sudo apt install -y mongodb
@@ -26,6 +24,8 @@ sudo systemctl start mongod
 
 # Verifica que MongoDB esté corriendo.
 sudo systemctl status mongod
+
+```
 
 ## Pasos para Desplegar el Proyecto
 
