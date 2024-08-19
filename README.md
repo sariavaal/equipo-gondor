@@ -52,7 +52,9 @@ node app.js
 para iniciar el Cliente
 npm run dev
 
-Notas Adicionales
+```
+
+### Notas Adicionales
 Asegurarse de tener MongoDB en funcionamiento antes de iniciar el servidor.
 La creación del usuario es importante para gestionar los accesos y permisos en la base de datos.
 
