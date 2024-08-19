@@ -6,12 +6,26 @@ Este proyecto consiste en una aplicación web con un backend desarrollado en Nod
 
 ## Requisitos
 - MongoDB
-- Node.js
+- Node.js v18.19.0 o superior
 - (Opcional) MongoDB Compass
 
 ## Estructura del Proyecto
 - **server**: Contiene el backend de la aplicación.
 - **client**: Contiene el frontend de la aplicación.
+
+###  Instalar MongoDB en Ubuntu
+
+Para instalar MongoDB en Ubuntu, puedes utilizar el siguiente comando:
+
+```bash
+sudo apt update
+sudo apt install -y mongodb
+
+# Inicia MongoDB.
+sudo systemctl start mongod
+
+# Verifica que MongoDB esté corriendo.
+sudo systemctl status mongod
 
 ## Pasos para Desplegar el Proyecto
 
@@ -40,5 +54,5 @@ npm run dev
 
 Notas Adicionales
 Asegurarse de tener MongoDB en funcionamiento antes de iniciar el servidor.
-
+La creación del usuario es importante para gestionar los accesos y permisos en la base de datos.
 
