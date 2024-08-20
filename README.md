@@ -2,7 +2,7 @@
 **Tarea de Mentoría - Sodep**
 
 ## Descripción
-Este proyecto consiste en una aplicación web con un backend desarrollado en Node.js y MongoDB, y un frontend en React. A continuación, se detallan los pasos necesarios para desplegar el proyecto en tu entorno local.
+Este proyecto fue probado en Ubuntu 24.04 LTS, consiste en una aplicación web con un backend desarrollado en Node.js y MongoDB, y un frontend en React. A continuación, se detallan los pasos necesarios para desplegar el proyecto en tu entorno local.
 
 ## Requisitos
 - MongoDB
